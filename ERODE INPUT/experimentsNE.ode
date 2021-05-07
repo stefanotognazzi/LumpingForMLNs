@@ -1,0 +1,16 @@
+begin model mod1
+load(fileIn="crn_out_arenasPLsynth2_100_0._ode")
+reduceBE(reducedFile="be_out_arenasPLsynth2_100_0._ode",prePartition=USER)
+end model
+begin model mod2
+load(fileIn="crn_out_arenasPLsynth2_100_10._ode")
+reduceBE(reducedFile="be_out_arenasPLsynth2_100_10._ode",prePartition=USER)
+end model
+begin model mod3
+load(fileIn="crn_out_arenasPLsynth2_100_20._ode")
+reduceBE(reducedFile="be_out_arenasPLsynth2_100_20._ode",prePartition=USER)
+end model
+begin model mod4
+load(fileIn="crn_out_arenasPLsynth2_100_5._ode")
+reduceBE(reducedFile="be_out_arenasPLsynth2_100_5._ode",prePartition=USER)
+end model

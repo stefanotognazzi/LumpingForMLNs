@@ -1,0 +1,76 @@
+begin model mod1
+load(fileIn="out_arenasPLsynth2_100_0._ode")
+reduceBE(prePartition=USER,reducedFile="be_out_arenasPLsynth2_100_0._ode")
+reduceFE(prePartition=USER,reducedFile="fe_out_arenasPLsynth2_100_0._ode")
+reduceSE(prePartition=USER,reducedFile="se_out_arenasPLsynth2_100_0._ode")
+exportStochKit(fileOut="full_out_arenasPLsynth2_100_0.xml")
+end model
+begin model mod101
+load(fileIn="be_out_arenasPLsynth2_100_0._ode")
+exportStochKit(fileOut="be_out_arenasPLsynth2_100_0.xml")
+end model
+begin model mod201
+load(fileIn="se_out_arenasPLsynth2_100_0._ode")
+exportStochKit(fileOut="se_out_arenasPLsynth2_100_0.xml")
+end model
+begin model mod301
+load(fileIn="fe_out_arenasPLsynth2_100_0._ode")
+exportStochKit(fileOut="fe_out_arenasPLsynth2_100_0.xml")
+end model
+begin model mod2
+load(fileIn="out_arenasPLsynth2_100_10._ode")
+reduceBE(prePartition=USER,reducedFile="be_out_arenasPLsynth2_100_10._ode")
+reduceFE(prePartition=USER,reducedFile="fe_out_arenasPLsynth2_100_10._ode")
+reduceSE(prePartition=USER,reducedFile="se_out_arenasPLsynth2_100_10._ode")
+exportStochKit(fileOut="full_out_arenasPLsynth2_100_10.xml")
+end model
+begin model mod102
+load(fileIn="be_out_arenasPLsynth2_100_10._ode")
+exportStochKit(fileOut="be_out_arenasPLsynth2_100_10.xml")
+end model
+begin model mod202
+load(fileIn="se_out_arenasPLsynth2_100_10._ode")
+exportStochKit(fileOut="se_out_arenasPLsynth2_100_10.xml")
+end model
+begin model mod302
+load(fileIn="fe_out_arenasPLsynth2_100_10._ode")
+exportStochKit(fileOut="fe_out_arenasPLsynth2_100_10.xml")
+end model
+begin model mod3
+load(fileIn="out_arenasPLsynth2_100_20._ode")
+reduceBE(prePartition=USER,reducedFile="be_out_arenasPLsynth2_100_20._ode")
+reduceFE(prePartition=USER,reducedFile="fe_out_arenasPLsynth2_100_20._ode")
+reduceSE(prePartition=USER,reducedFile="se_out_arenasPLsynth2_100_20._ode")
+exportStochKit(fileOut="full_out_arenasPLsynth2_100_20.xml")
+end model
+begin model mod103
+load(fileIn="be_out_arenasPLsynth2_100_20._ode")
+exportStochKit(fileOut="be_out_arenasPLsynth2_100_20.xml")
+end model
+begin model mod203
+load(fileIn="se_out_arenasPLsynth2_100_20._ode")
+exportStochKit(fileOut="se_out_arenasPLsynth2_100_20.xml")
+end model
+begin model mod303
+load(fileIn="fe_out_arenasPLsynth2_100_20._ode")
+exportStochKit(fileOut="fe_out_arenasPLsynth2_100_20.xml")
+end model
+begin model mod4
+load(fileIn="out_arenasPLsynth2_100_5._ode")
+reduceBE(prePartition=USER,reducedFile="be_out_arenasPLsynth2_100_5._ode")
+reduceFE(prePartition=USER,reducedFile="fe_out_arenasPLsynth2_100_5._ode")
+reduceSE(prePartition=USER,reducedFile="se_out_arenasPLsynth2_100_5._ode")
+exportStochKit(fileOut="full_out_arenasPLsynth2_100_5.xml")
+end model
+begin model mod104
+load(fileIn="be_out_arenasPLsynth2_100_5._ode")
+exportStochKit(fileOut="be_out_arenasPLsynth2_100_5.xml")
+end model
+begin model mod204
+load(fileIn="se_out_arenasPLsynth2_100_5._ode")
+exportStochKit(fileOut="se_out_arenasPLsynth2_100_5.xml")
+end model
+begin model mod304
+load(fileIn="fe_out_arenasPLsynth2_100_5._ode")
+exportStochKit(fileOut="fe_out_arenasPLsynth2_100_5.xml")
+end model

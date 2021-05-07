@@ -1,0 +1,2401 @@
+// Automatically generated from out_arenasPLsynth2_100_0._ode via be
+// Size of initial partition: 3
+// Original number of species: 300
+// Reduced number of species: 234 (78,00%)
+// Original number of reactions: 1376
+// Reduced number of reactions: 1140
+begin model be_out_arenasPLsynth2_100_0_ode
+ begin parameters
+  del = 0.6
+  mu = 0.4
+  lambda = 0.15
+  betaA = 0.01
+  betaU = 0.4
+ end parameters
+ begin init
+  ai1 = 1
+  ai2 = 1
+  ai3 = 1
+  ai4 = 1+1+1+1+1+1+1+1
+  ai5 = 1
+  ai6 = 1
+  ai7 = 1+1+1
+  ai9 = 1
+  ai10 = 1
+  ai11 = 1+1
+  ai13 = 1
+  ai14 = 1+1
+  ai15 = 1
+  ai16 = 1
+  ai17 = 1
+  ai19 = 1
+  ai20 = 1
+  ai21 = 1+1
+  ai22 = 1+1+1+1+1+1
+  ai24 = 1+1+1
+  ai25 = 1
+  ai26 = 1
+  ai27 = 1+1
+  ai28 = 1
+  ai29 = 1
+  ai30 = 1
+  ai31 = 1
+  ai33 = 1
+  ai34 = 1
+  ai35 = 1
+  ai36 = 1
+  ai37 = 1
+  ai38 = 1
+  ai39 = 1+1
+  ai40 = 1
+  ai41 = 1
+  ai42 = 1
+  ai44 = 1
+  ai45 = 1
+  ai46 = 1
+  ai47 = 1
+  ai49 = 1
+  ai50 = 1
+  ai51 = 1
+  ai52 = 1
+  ai53 = 1
+  ai54 = 1
+  ai55 = 1
+  ai56 = 1
+  ai57 = 1
+  ai58 = 1
+  ai59 = 1
+  ai60 = 1
+  ai61 = 1+1
+  ai62 = 1
+  ai67 = 1
+  ai68 = 1
+  ai69 = 1
+  ai70 = 1
+  ai71 = 1
+  ai72 = 1
+  ai73 = 1
+  ai74 = 1
+  ai75 = 1
+  ai76 = 1
+  ai79 = 1
+  ai80 = 1
+  ai83 = 1
+  ai85 = 1
+  ai87 = 1
+  ai89 = 1
+  ai92 = 1
+  ai94 = 1
+  ai95 = 1
+  ai96 = 1
+  ai97 = 1
+  ai98 = 1
+  ai100 = 1
+  as1
+  as2
+  as3
+  as4
+  as5
+  as6
+  as7
+  as9
+  as10
+  as11
+  as13
+  as14
+  as15
+  as16
+  as17
+  as19
+  as20
+  as21
+  as22
+  as24
+  as25
+  as26
+  as27
+  as28
+  as29
+  as30
+  as31
+  as33
+  as34
+  as35
+  as36
+  as37
+  as38
+  as39
+  as40
+  as41
+  as42
+  as44
+  as45
+  as46
+  as47
+  as49
+  as50
+  as51
+  as52
+  as53
+  as54
+  as55
+  as56
+  as57
+  as58
+  as59
+  as60
+  as61
+  as62
+  as67
+  as68
+  as69
+  as70
+  as71
+  as72
+  as73
+  as74
+  as75
+  as76
+  as79
+  as80
+  as83
+  as85
+  as87
+  as89
+  as92
+  as94
+  as95
+  as96
+  as97
+  as98
+  as100
+  us1
+  us2
+  us3
+  us4
+  us5
+  us6
+  us7
+  us9
+  us10
+  us11
+  us13
+  us14
+  us15
+  us16
+  us17
+  us19
+  us20
+  us21
+  us22
+  us24
+  us25
+  us26
+  us27
+  us28
+  us29
+  us30
+  us31
+  us33
+  us34
+  us35
+  us36
+  us37
+  us38
+  us39
+  us40
+  us41
+  us42
+  us44
+  us45
+  us46
+  us47
+  us49
+  us50
+  us51
+  us52
+  us53
+  us54
+  us55
+  us56
+  us57
+  us58
+  us59
+  us60
+  us61
+  us62
+  us67
+  us68
+  us69
+  us70
+  us71
+  us72
+  us73
+  us74
+  us75
+  us76
+  us79
+  us80
+  us83
+  us85
+  us87
+  us89
+  us92
+  us94
+  us95
+  us96
+  us97
+  us98
+  us100
+ end init
+ begin reactions
+  ai1 -> as1 , mu
+  ai1 + as2 -> ai1 + ai2 , betaA
+  ai1 + as17 -> ai1 + ai17 , betaA
+  ai1 + as31 -> ai1 + ai31 , betaA
+  ai1 + as34 -> ai1 + ai34 , betaA
+  ai1 + as47 -> ai1 + ai47 , betaA
+  ai1 + as75 -> ai1 + ai75 , betaA
+  ai1 + as92 -> ai1 + ai92 , betaA
+  ai1 + us2 -> ai1 + ai2 , betaU
+  ai1 + us2 -> ai1 + as2 , lambda
+  ai1 + us17 -> ai1 + ai17 , betaU
+  ai1 + us17 -> ai1 + as17 , lambda
+  ai1 + us31 -> ai1 + ai31 , betaU
+  ai1 + us31 -> ai1 + as31 , lambda
+  ai1 + us34 -> ai1 + ai34 , betaU
+  ai1 + us34 -> ai1 + as34 , lambda
+  ai1 + us47 -> ai1 + ai47 , betaU
+  ai1 + us47 -> ai1 + as47 , lambda
+  ai1 + us75 -> ai1 + ai75 , betaU
+  ai1 + us75 -> ai1 + as75 , lambda
+  ai1 + us92 -> ai1 + ai92 , betaU
+  ai1 + us92 -> ai1 + as92 , lambda
+  ai2 -> as2 , mu
+  ai2 + as1 -> ai1 + ai2 , betaA
+  ai2 + as16 -> ai2 + ai16 , betaA
+  ai2 + as34 -> ai2 + ai34 , betaA
+  ai2 + as52 -> ai2 + ai52 , betaA
+  ai2 + as57 -> ai2 + ai57 , betaA
+  ai2 + us1 -> ai1 + ai2 , betaU
+  ai2 + us1 -> ai2 + as1 , lambda
+  ai2 + us16 -> ai2 + ai16 , betaU
+  ai2 + us16 -> ai2 + as16 , lambda
+  ai2 + us34 -> ai2 + ai34 , betaU
+  ai2 + us34 -> ai2 + as34 , lambda
+  ai2 + us52 -> ai2 + ai52 , betaU
+  ai2 + us52 -> ai2 + as52 , lambda
+  ai2 + us57 -> ai2 + ai57 , betaU
+  ai2 + us57 -> ai2 + as57 , lambda
+  ai3 -> as3 , mu
+  ai3 + as85 -> ai3 + ai85 , betaA
+  ai3 + us85 -> ai3 + ai85 , betaU
+  ai3 + us85 -> ai3 + as85 , lambda
+  ai4 -> as4 , (mu+mu+mu+mu+mu+mu+mu+mu)/8.0
+  ai4 + as34 -> ai4 + ai34 , (betaA+betaA+betaA+betaA+betaA+betaA+betaA+betaA)/8.0
+  ai4 + us34 -> ai4 + ai34 , (betaU+betaU+betaU+betaU+betaU+betaU+betaU+betaU)/8.0
+  ai4 + us34 -> ai4 + as34 , (lambda+lambda+lambda+lambda+lambda+lambda+lambda+lambda)/8.0
+  ai5 -> as5 , mu
+  ai5 + as16 -> ai5 + ai16 , betaA
+  ai5 + as34 -> ai5 + ai34 , betaA
+  ai5 + as51 -> ai5 + ai51 , betaA
+  ai5 + us16 -> ai5 + ai16 , betaU
+  ai5 + us16 -> ai5 + as16 , lambda
+  ai5 + us34 -> ai5 + ai34 , betaU
+  ai5 + us34 -> ai5 + as34 , lambda
+  ai5 + us51 -> ai5 + ai51 , betaU
+  ai5 + us51 -> ai5 + as51 , lambda
+  ai6 -> as6 , mu
+  ai6 + as44 -> ai6 + ai44 , betaA
+  ai6 + as52 -> ai6 + ai52 , betaA
+  ai6 + us44 -> ai6 + ai44 , betaU
+  ai6 + us44 -> ai6 + as44 , lambda
+  ai6 + us52 -> ai6 + ai52 , betaU
+  ai6 + us52 -> ai6 + as52 , lambda
+  ai7 -> as7 , (mu+mu+mu)/3.0
+  ai7 + as16 -> ai7 + ai16 , (betaA+betaA+betaA)/3.0
+  ai7 + as34 -> ai7 + ai34 , (betaA+betaA+betaA)/3.0
+  ai7 + us16 -> ai7 + ai16 , (betaU+betaU+betaU)/3.0
+  ai7 + us16 -> ai7 + as16 , (lambda+lambda+lambda)/3.0
+  ai7 + us34 -> ai7 + ai34 , (betaU+betaU+betaU)/3.0
+  ai7 + us34 -> ai7 + as34 , (lambda+lambda+lambda)/3.0
+  ai9 -> as9 , mu
+  ai9 + as16 -> ai9 + ai16 , betaA
+  ai9 + as95 -> ai9 + ai95 , betaA
+  ai9 + us16 -> ai9 + ai16 , betaU
+  ai9 + us16 -> ai9 + as16 , lambda
+  ai9 + us95 -> ai9 + ai95 , betaU
+  ai9 + us95 -> ai9 + as95 , lambda
+  ai10 -> as10 , mu
+  ai10 + as30 -> ai10 + ai30 , betaA
+  ai10 + as56 -> ai10 + ai56 , betaA
+  ai10 + us30 -> ai10 + ai30 , betaU
+  ai10 + us30 -> ai10 + as30 , lambda
+  ai10 + us56 -> ai10 + ai56 , betaU
+  ai10 + us56 -> ai10 + as56 , lambda
+  ai11 -> as11 , (mu+mu)/2.0
+  ai11 + as34 -> ai11 + ai34 , (betaA+betaA)/2.0
+  ai11 + as37 -> ai11 + ai37 , (betaA+betaA)/2.0
+  ai11 + us34 -> ai11 + ai34 , (betaU+betaU)/2.0
+  ai11 + us34 -> ai11 + as34 , (lambda+lambda)/2.0
+  ai11 + us37 -> ai11 + ai37 , (betaU+betaU)/2.0
+  ai11 + us37 -> ai11 + as37 , (lambda+lambda)/2.0
+  ai13 -> as13 , mu
+  ai13 + as16 -> ai13 + ai16 , betaA
+  ai13 + us16 -> ai13 + ai16 , betaU
+  ai13 + us16 -> ai13 + as16 , lambda
+  ai14 -> as14 , (mu+mu)/2.0
+  ai14 + as71 -> ai14 + ai71 , (betaA+betaA)/2.0
+  ai14 + us71 -> ai14 + ai71 , (betaU+betaU)/2.0
+  ai14 + us71 -> ai14 + as71 , (lambda+lambda)/2.0
+  ai15 -> as15 , mu
+  ai15 + as33 -> ai15 + ai33 , betaA
+  ai15 + as56 -> ai15 + ai56 , betaA
+  ai15 + us33 -> ai15 + ai33 , betaU
+  ai15 + us33 -> ai15 + as33 , lambda
+  ai15 + us56 -> ai15 + ai56 , betaU
+  ai15 + us56 -> ai15 + as56 , lambda
+  ai16 -> as16 , mu
+  ai16 + as2 -> ai2 + ai16 , betaA
+  ai16 + as5 -> ai5 + ai16 , betaA
+  ai16 + as7 -> ai7 + ai16 , (betaA+betaA+betaA)/3.0
+  ai16 + as9 -> ai9 + ai16 , betaA
+  ai16 + as13 -> ai13 + ai16 , betaA
+  ai16 + as17 -> ai16 + ai17 , betaA
+  ai16 + as26 -> ai16 + ai26 , betaA
+  ai16 + as27 -> ai16 + ai27 , (betaA+betaA)/2.0
+  ai16 + as34 -> ai16 + ai34 , betaA
+  ai16 + as40 -> ai16 + ai40 , betaA
+  ai16 + as44 -> ai16 + ai44 , betaA
+  ai16 + as45 -> ai16 + ai45 , betaA
+  ai16 + as47 -> ai16 + ai47 , betaA
+  ai16 + as52 -> ai16 + ai52 , betaA
+  ai16 + as67 -> ai16 + ai67 , betaA
+  ai16 + as75 -> ai16 + ai75 , betaA
+  ai16 + as76 -> ai16 + ai76 , betaA
+  ai16 + as80 -> ai16 + ai80 , betaA
+  ai16 + as94 -> ai16 + ai94 , betaA
+  ai16 + us2 -> ai2 + ai16 , betaU
+  ai16 + us2 -> ai16 + as2 , lambda
+  ai16 + us5 -> ai5 + ai16 , betaU
+  ai16 + us5 -> ai16 + as5 , lambda
+  ai16 + us7 -> ai7 + ai16 , (betaU+betaU+betaU)/3.0
+  ai16 + us7 -> ai16 + as7 , (lambda+lambda+lambda)/3.0
+  ai16 + us9 -> ai9 + ai16 , betaU
+  ai16 + us9 -> ai16 + as9 , lambda
+  ai16 + us13 -> ai13 + ai16 , betaU
+  ai16 + us13 -> ai16 + as13 , lambda
+  ai16 + us17 -> ai16 + ai17 , betaU
+  ai16 + us17 -> ai16 + as17 , lambda
+  ai16 + us26 -> ai16 + ai26 , betaU
+  ai16 + us26 -> ai16 + as26 , lambda
+  ai16 + us27 -> ai16 + ai27 , (betaU+betaU)/2.0
+  ai16 + us27 -> ai16 + as27 , (lambda+lambda)/2.0
+  ai16 + us34 -> ai16 + ai34 , betaU
+  ai16 + us34 -> ai16 + as34 , lambda
+  ai16 + us40 -> ai16 + ai40 , betaU
+  ai16 + us40 -> ai16 + as40 , lambda
+  ai16 + us44 -> ai16 + ai44 , betaU
+  ai16 + us44 -> ai16 + as44 , lambda
+  ai16 + us45 -> ai16 + ai45 , betaU
+  ai16 + us45 -> ai16 + as45 , lambda
+  ai16 + us47 -> ai16 + ai47 , betaU
+  ai16 + us47 -> ai16 + as47 , lambda
+  ai16 + us52 -> ai16 + ai52 , betaU
+  ai16 + us52 -> ai16 + as52 , lambda
+  ai16 + us67 -> ai16 + ai67 , betaU
+  ai16 + us67 -> ai16 + as67 , lambda
+  ai16 + us75 -> ai16 + ai75 , betaU
+  ai16 + us75 -> ai16 + as75 , lambda
+  ai16 + us76 -> ai16 + ai76 , betaU
+  ai16 + us76 -> ai16 + as76 , lambda
+  ai16 + us80 -> ai16 + ai80 , betaU
+  ai16 + us80 -> ai16 + as80 , lambda
+  ai16 + us94 -> ai16 + ai94 , betaU
+  ai16 + us94 -> ai16 + as94 , lambda
+  ai17 -> as17 , mu
+  ai17 + as1 -> ai1 + ai17 , betaA
+  ai17 + as16 -> ai16 + ai17 , betaA
+  ai17 + as34 -> ai17 + ai34 , betaA
+  ai17 + as37 -> ai17 + ai37 , betaA
+  ai17 + as62 -> ai17 + ai62 , betaA
+  ai17 + as71 -> ai17 + ai71 , betaA
+  ai17 + as96 -> ai17 + ai96 , betaA
+  ai17 + us1 -> ai1 + ai17 , betaU
+  ai17 + us1 -> ai17 + as1 , lambda
+  ai17 + us16 -> ai16 + ai17 , betaU
+  ai17 + us16 -> ai17 + as16 , lambda
+  ai17 + us34 -> ai17 + ai34 , betaU
+  ai17 + us34 -> ai17 + as34 , lambda
+  ai17 + us37 -> ai17 + ai37 , betaU
+  ai17 + us37 -> ai17 + as37 , lambda
+  ai17 + us62 -> ai17 + ai62 , betaU
+  ai17 + us62 -> ai17 + as62 , lambda
+  ai17 + us71 -> ai17 + ai71 , betaU
+  ai17 + us71 -> ai17 + as71 , lambda
+  ai17 + us96 -> ai17 + ai96 , betaU
+  ai17 + us96 -> ai17 + as96 , lambda
+  ai19 -> as19 , mu
+  ai19 + as56 -> ai19 + ai56 , betaA
+  ai19 + us56 -> ai19 + ai56 , betaU
+  ai19 + us56 -> ai19 + as56 , lambda
+  ai20 -> as20 , mu
+  ai20 + as67 -> ai20 + ai67 , betaA
+  ai20 + us67 -> ai20 + ai67 , betaU
+  ai20 + us67 -> ai20 + as67 , lambda
+  ai21 -> as21 , (mu+mu)/2.0
+  ai21 + as80 -> ai21 + ai80 , (betaA+betaA)/2.0
+  ai21 + us80 -> ai21 + ai80 , (betaU+betaU)/2.0
+  ai21 + us80 -> ai21 + as80 , (lambda+lambda)/2.0
+  ai22 -> as22 , (mu+mu+mu+mu+mu+mu)/6.0
+  ai22 + as22 -> 2*ai22 , (betaA+betaA+betaA+betaA+betaA+betaA)/36.0
+  ai22 + us22 -> ai22 + as22 , (lambda+lambda+lambda+lambda+lambda+lambda)/36.0
+  ai22 + us22 -> 2*ai22 , (betaU+betaU+betaU+betaU+betaU+betaU)/36.0
+  ai24 -> as24 , (mu+mu+mu)/3.0
+  ai24 + as44 -> ai24 + ai44 , (betaA+betaA+betaA)/3.0
+  ai24 + us44 -> ai24 + ai44 , (betaU+betaU+betaU)/3.0
+  ai24 + us44 -> ai24 + as44 , (lambda+lambda+lambda)/3.0
+  ai25 -> as25 , mu
+  ai25 + as54 -> ai25 + ai54 , betaA
+  ai25 + us54 -> ai25 + ai54 , betaU
+  ai25 + us54 -> ai25 + as54 , lambda
+  ai26 -> as26 , mu
+  ai26 + as16 -> ai16 + ai26 , betaA
+  ai26 + as34 -> ai26 + ai34 , betaA
+  ai26 + as52 -> ai26 + ai52 , betaA
+  ai26 + as97 -> ai26 + ai97 , betaA
+  ai26 + us16 -> ai16 + ai26 , betaU
+  ai26 + us16 -> ai26 + as16 , lambda
+  ai26 + us34 -> ai26 + ai34 , betaU
+  ai26 + us34 -> ai26 + as34 , lambda
+  ai26 + us52 -> ai26 + ai52 , betaU
+  ai26 + us52 -> ai26 + as52 , lambda
+  ai26 + us97 -> ai26 + ai97 , betaU
+  ai26 + us97 -> ai26 + as97 , lambda
+  ai27 -> as27 , (mu+mu)/2.0
+  ai27 + as16 -> ai16 + ai27 , (betaA+betaA)/2.0
+  ai27 + as39 -> ai27 + ai39 , (betaA+betaA)/4.0
+  ai27 + us16 -> ai16 + ai27 , (betaU+betaU)/2.0
+  ai27 + us16 -> ai27 + as16 , (lambda+lambda)/2.0
+  ai27 + us39 -> ai27 + ai39 , (betaU+betaU)/4.0
+  ai27 + us39 -> ai27 + as39 , (lambda+lambda)/4.0
+  ai28 -> as28 , mu
+  ai28 + as34 -> ai28 + ai34 , betaA
+  ai28 + as56 -> ai28 + ai56 , betaA
+  ai28 + us34 -> ai28 + ai34 , betaU
+  ai28 + us34 -> ai28 + as34 , lambda
+  ai28 + us56 -> ai28 + ai56 , betaU
+  ai28 + us56 -> ai28 + as56 , lambda
+  ai29 -> as29 , mu
+  ai29 + as45 -> ai29 + ai45 , betaA
+  ai29 + us45 -> ai29 + ai45 , betaU
+  ai29 + us45 -> ai29 + as45 , lambda
+  ai30 -> as30 , mu
+  ai30 + as10 -> ai10 + ai30 , betaA
+  ai30 + us10 -> ai10 + ai30 , betaU
+  ai30 + us10 -> ai30 + as10 , lambda
+  ai31 -> as31 , mu
+  ai31 + as1 -> ai1 + ai31 , betaA
+  ai31 + us1 -> ai1 + ai31 , betaU
+  ai31 + us1 -> ai31 + as1 , lambda
+  ai33 -> as33 , mu
+  ai33 + as15 -> ai15 + ai33 , betaA
+  ai33 + as34 -> ai33 + ai34 , betaA
+  ai33 + us15 -> ai15 + ai33 , betaU
+  ai33 + us15 -> ai33 + as15 , lambda
+  ai33 + us34 -> ai33 + ai34 , betaU
+  ai33 + us34 -> ai33 + as34 , lambda
+  ai34 -> as34 , mu
+  ai34 + as1 -> ai1 + ai34 , betaA
+  ai34 + as2 -> ai2 + ai34 , betaA
+  ai34 + as4 -> ai4 + ai34 , (betaA+betaA+betaA+betaA+betaA+betaA+betaA+betaA)/8.0
+  ai34 + as5 -> ai5 + ai34 , betaA
+  ai34 + as7 -> ai7 + ai34 , (betaA+betaA+betaA)/3.0
+  ai34 + as11 -> ai11 + ai34 , (betaA+betaA)/2.0
+  ai34 + as16 -> ai16 + ai34 , betaA
+  ai34 + as17 -> ai17 + ai34 , betaA
+  ai34 + as26 -> ai26 + ai34 , betaA
+  ai34 + as28 -> ai28 + ai34 , betaA
+  ai34 + as33 -> ai33 + ai34 , betaA
+  ai34 + as35 -> ai34 + ai35 , betaA
+  ai34 + as38 -> ai34 + ai38 , betaA
+  ai34 + as39 -> ai34 + ai39 , (betaA+betaA)/2.0
+  ai34 + as40 -> ai34 + ai40 , betaA
+  ai34 + as42 -> ai34 + ai42 , betaA
+  ai34 + as44 -> ai34 + ai44 , betaA
+  ai34 + as45 -> ai34 + ai45 , betaA
+  ai34 + as47 -> ai34 + ai47 , betaA
+  ai34 + as50 -> ai34 + ai50 , betaA
+  ai34 + as52 -> ai34 + ai52 , betaA
+  ai34 + as53 -> ai34 + ai53 , betaA
+  ai34 + as54 -> ai34 + ai54 , betaA
+  ai34 + as59 -> ai34 + ai59 , betaA
+  ai34 + as60 -> ai34 + ai60 , betaA
+  ai34 + as61 -> ai34 + ai61 , (betaA+betaA)/2.0
+  ai34 + as69 -> ai34 + ai69 , betaA
+  ai34 + as71 -> ai34 + ai71 , betaA
+  ai34 + as73 -> ai34 + ai73 , betaA
+  ai34 + as79 -> ai34 + ai79 , betaA
+  ai34 + as80 -> ai34 + ai80 , betaA
+  ai34 + as83 -> ai34 + ai83 , betaA
+  ai34 + as85 -> ai34 + ai85 , betaA
+  ai34 + as92 -> ai34 + ai92 , betaA
+  ai34 + as98 -> ai34 + ai98 , betaA
+  ai34 + us1 -> ai1 + ai34 , betaU
+  ai34 + us1 -> ai34 + as1 , lambda
+  ai34 + us2 -> ai2 + ai34 , betaU
+  ai34 + us2 -> ai34 + as2 , lambda
+  ai34 + us4 -> ai4 + ai34 , (betaU+betaU+betaU+betaU+betaU+betaU+betaU+betaU)/8.0
+  ai34 + us4 -> ai34 + as4 , (lambda+lambda+lambda+lambda+lambda+lambda+lambda+lambda)/8.0
+  ai34 + us5 -> ai5 + ai34 , betaU
+  ai34 + us5 -> ai34 + as5 , lambda
+  ai34 + us7 -> ai7 + ai34 , (betaU+betaU+betaU)/3.0
+  ai34 + us7 -> ai34 + as7 , (lambda+lambda+lambda)/3.0
+  ai34 + us11 -> ai11 + ai34 , (betaU+betaU)/2.0
+  ai34 + us11 -> ai34 + as11 , (lambda+lambda)/2.0
+  ai34 + us16 -> ai16 + ai34 , betaU
+  ai34 + us16 -> ai34 + as16 , lambda
+  ai34 + us17 -> ai17 + ai34 , betaU
+  ai34 + us17 -> ai34 + as17 , lambda
+  ai34 + us26 -> ai26 + ai34 , betaU
+  ai34 + us26 -> ai34 + as26 , lambda
+  ai34 + us28 -> ai28 + ai34 , betaU
+  ai34 + us28 -> ai34 + as28 , lambda
+  ai34 + us33 -> ai33 + ai34 , betaU
+  ai34 + us33 -> ai34 + as33 , lambda
+  ai34 + us35 -> ai34 + ai35 , betaU
+  ai34 + us35 -> ai34 + as35 , lambda
+  ai34 + us38 -> ai34 + ai38 , betaU
+  ai34 + us38 -> ai34 + as38 , lambda
+  ai34 + us39 -> ai34 + ai39 , (betaU+betaU)/2.0
+  ai34 + us39 -> ai34 + as39 , (lambda+lambda)/2.0
+  ai34 + us40 -> ai34 + ai40 , betaU
+  ai34 + us40 -> ai34 + as40 , lambda
+  ai34 + us42 -> ai34 + ai42 , betaU
+  ai34 + us42 -> ai34 + as42 , lambda
+  ai34 + us44 -> ai34 + ai44 , betaU
+  ai34 + us44 -> ai34 + as44 , lambda
+  ai34 + us45 -> ai34 + ai45 , betaU
+  ai34 + us45 -> ai34 + as45 , lambda
+  ai34 + us47 -> ai34 + ai47 , betaU
+  ai34 + us47 -> ai34 + as47 , lambda
+  ai34 + us50 -> ai34 + ai50 , betaU
+  ai34 + us50 -> ai34 + as50 , lambda
+  ai34 + us52 -> ai34 + ai52 , betaU
+  ai34 + us52 -> ai34 + as52 , lambda
+  ai34 + us53 -> ai34 + ai53 , betaU
+  ai34 + us53 -> ai34 + as53 , lambda
+  ai34 + us54 -> ai34 + ai54 , betaU
+  ai34 + us54 -> ai34 + as54 , lambda
+  ai34 + us59 -> ai34 + ai59 , betaU
+  ai34 + us59 -> ai34 + as59 , lambda
+  ai34 + us60 -> ai34 + ai60 , betaU
+  ai34 + us60 -> ai34 + as60 , lambda
+  ai34 + us61 -> ai34 + ai61 , (betaU+betaU)/2.0
+  ai34 + us61 -> ai34 + as61 , (lambda+lambda)/2.0
+  ai34 + us69 -> ai34 + ai69 , betaU
+  ai34 + us69 -> ai34 + as69 , lambda
+  ai34 + us71 -> ai34 + ai71 , betaU
+  ai34 + us71 -> ai34 + as71 , lambda
+  ai34 + us73 -> ai34 + ai73 , betaU
+  ai34 + us73 -> ai34 + as73 , lambda
+  ai34 + us79 -> ai34 + ai79 , betaU
+  ai34 + us79 -> ai34 + as79 , lambda
+  ai34 + us80 -> ai34 + ai80 , betaU
+  ai34 + us80 -> ai34 + as80 , lambda
+  ai34 + us83 -> ai34 + ai83 , betaU
+  ai34 + us83 -> ai34 + as83 , lambda
+  ai34 + us85 -> ai34 + ai85 , betaU
+  ai34 + us85 -> ai34 + as85 , lambda
+  ai34 + us92 -> ai34 + ai92 , betaU
+  ai34 + us92 -> ai34 + as92 , lambda
+  ai34 + us98 -> ai34 + ai98 , betaU
+  ai34 + us98 -> ai34 + as98 , lambda
+  ai35 -> as35 , mu
+  ai35 + as34 -> ai34 + ai35 , betaA
+  ai35 + as71 -> ai35 + ai71 , betaA
+  ai35 + us34 -> ai34 + ai35 , betaU
+  ai35 + us34 -> ai35 + as34 , lambda
+  ai35 + us71 -> ai35 + ai71 , betaU
+  ai35 + us71 -> ai35 + as71 , lambda
+  ai36 -> as36 , mu
+  ai36 + as52 -> ai36 + ai52 , betaA
+  ai36 + us52 -> ai36 + ai52 , betaU
+  ai36 + us52 -> ai36 + as52 , lambda
+  ai37 -> as37 , mu
+  ai37 + as11 -> ai11 + ai37 , (betaA+betaA)/2.0
+  ai37 + as17 -> ai17 + ai37 , betaA
+  ai37 + as51 -> ai37 + ai51 , betaA
+  ai37 + us11 -> ai11 + ai37 , (betaU+betaU)/2.0
+  ai37 + us11 -> ai37 + as11 , (lambda+lambda)/2.0
+  ai37 + us17 -> ai17 + ai37 , betaU
+  ai37 + us17 -> ai37 + as17 , lambda
+  ai37 + us51 -> ai37 + ai51 , betaU
+  ai37 + us51 -> ai37 + as51 , lambda
+  ai38 -> as38 , mu
+  ai38 + as34 -> ai34 + ai38 , betaA
+  ai38 + as87 -> ai38 + ai87 , betaA
+  ai38 + us34 -> ai34 + ai38 , betaU
+  ai38 + us34 -> ai38 + as34 , lambda
+  ai38 + us87 -> ai38 + ai87 , betaU
+  ai38 + us87 -> ai38 + as87 , lambda
+  ai39 -> as39 , (mu+mu)/2.0
+  ai39 + as27 -> ai27 + ai39 , (betaA+betaA)/4.0
+  ai39 + as34 -> ai34 + ai39 , (betaA+betaA)/2.0
+  ai39 + us27 -> ai27 + ai39 , (betaU+betaU)/4.0
+  ai39 + us27 -> ai39 + as27 , (lambda+lambda)/4.0
+  ai39 + us34 -> ai34 + ai39 , (betaU+betaU)/2.0
+  ai39 + us34 -> ai39 + as34 , (lambda+lambda)/2.0
+  ai40 -> as40 , mu
+  ai40 + as16 -> ai16 + ai40 , betaA
+  ai40 + as34 -> ai34 + ai40 , betaA
+  ai40 + as59 -> ai40 + ai59 , betaA
+  ai40 + as71 -> ai40 + ai71 , betaA
+  ai40 + us16 -> ai16 + ai40 , betaU
+  ai40 + us16 -> ai40 + as16 , lambda
+  ai40 + us34 -> ai34 + ai40 , betaU
+  ai40 + us34 -> ai40 + as34 , lambda
+  ai40 + us59 -> ai40 + ai59 , betaU
+  ai40 + us59 -> ai40 + as59 , lambda
+  ai40 + us71 -> ai40 + ai71 , betaU
+  ai40 + us71 -> ai40 + as71 , lambda
+  ai41 -> as41 , mu
+  ai41 + as57 -> ai41 + ai57 , betaA
+  ai41 + as83 -> ai41 + ai83 , betaA
+  ai41 + as87 -> ai41 + ai87 , betaA
+  ai41 + us57 -> ai41 + ai57 , betaU
+  ai41 + us57 -> ai41 + as57 , lambda
+  ai41 + us83 -> ai41 + ai83 , betaU
+  ai41 + us83 -> ai41 + as83 , lambda
+  ai41 + us87 -> ai41 + ai87 , betaU
+  ai41 + us87 -> ai41 + as87 , lambda
+  ai42 -> as42 , mu
+  ai42 + as34 -> ai34 + ai42 , betaA
+  ai42 + as55 -> ai42 + ai55 , betaA
+  ai42 + as69 -> ai42 + ai69 , betaA
+  ai42 + us34 -> ai34 + ai42 , betaU
+  ai42 + us34 -> ai42 + as34 , lambda
+  ai42 + us55 -> ai42 + ai55 , betaU
+  ai42 + us55 -> ai42 + as55 , lambda
+  ai42 + us69 -> ai42 + ai69 , betaU
+  ai42 + us69 -> ai42 + as69 , lambda
+  ai44 -> as44 , mu
+  ai44 + as6 -> ai6 + ai44 , betaA
+  ai44 + as16 -> ai16 + ai44 , betaA
+  ai44 + as24 -> ai24 + ai44 , (betaA+betaA+betaA)/3.0
+  ai44 + as34 -> ai34 + ai44 , betaA
+  ai44 + as60 -> ai44 + ai60 , betaA
+  ai44 + as71 -> ai44 + ai71 , betaA
+  ai44 + as100 -> ai44 + ai100 , betaA
+  ai44 + us6 -> ai6 + ai44 , betaU
+  ai44 + us6 -> ai44 + as6 , lambda
+  ai44 + us16 -> ai16 + ai44 , betaU
+  ai44 + us16 -> ai44 + as16 , lambda
+  ai44 + us24 -> ai24 + ai44 , (betaU+betaU+betaU)/3.0
+  ai44 + us24 -> ai44 + as24 , (lambda+lambda+lambda)/3.0
+  ai44 + us34 -> ai34 + ai44 , betaU
+  ai44 + us34 -> ai44 + as34 , lambda
+  ai44 + us60 -> ai44 + ai60 , betaU
+  ai44 + us60 -> ai44 + as60 , lambda
+  ai44 + us71 -> ai44 + ai71 , betaU
+  ai44 + us71 -> ai44 + as71 , lambda
+  ai44 + us100 -> ai44 + ai100 , betaU
+  ai44 + us100 -> ai44 + as100 , lambda
+  ai45 -> as45 , mu
+  ai45 + as16 -> ai16 + ai45 , betaA
+  ai45 + as29 -> ai29 + ai45 , betaA
+  ai45 + as34 -> ai34 + ai45 , betaA
+  ai45 + as62 -> ai45 + ai62 , betaA
+  ai45 + as72 -> ai45 + ai72 , betaA
+  ai45 + as94 -> ai45 + ai94 , betaA
+  ai45 + as100 -> ai45 + ai100 , betaA
+  ai45 + us16 -> ai16 + ai45 , betaU
+  ai45 + us16 -> ai45 + as16 , lambda
+  ai45 + us29 -> ai29 + ai45 , betaU
+  ai45 + us29 -> ai45 + as29 , lambda
+  ai45 + us34 -> ai34 + ai45 , betaU
+  ai45 + us34 -> ai45 + as34 , lambda
+  ai45 + us62 -> ai45 + ai62 , betaU
+  ai45 + us62 -> ai45 + as62 , lambda
+  ai45 + us72 -> ai45 + ai72 , betaU
+  ai45 + us72 -> ai45 + as72 , lambda
+  ai45 + us94 -> ai45 + ai94 , betaU
+  ai45 + us94 -> ai45 + as94 , lambda
+  ai45 + us100 -> ai45 + ai100 , betaU
+  ai45 + us100 -> ai45 + as100 , lambda
+  ai46 -> as46 , mu
+  ai46 + as89 -> ai46 + ai89 , betaA
+  ai46 + us89 -> ai46 + ai89 , betaU
+  ai46 + us89 -> ai46 + as89 , lambda
+  ai47 -> as47 , mu
+  ai47 + as1 -> ai1 + ai47 , betaA
+  ai47 + as16 -> ai16 + ai47 , betaA
+  ai47 + as34 -> ai34 + ai47 , betaA
+  ai47 + us1 -> ai1 + ai47 , betaU
+  ai47 + us1 -> ai47 + as1 , lambda
+  ai47 + us16 -> ai16 + ai47 , betaU
+  ai47 + us16 -> ai47 + as16 , lambda
+  ai47 + us34 -> ai34 + ai47 , betaU
+  ai47 + us34 -> ai47 + as34 , lambda
+  ai49 -> as49 , mu
+  ai49 + as57 -> ai49 + ai57 , betaA
+  ai49 + as70 -> ai49 + ai70 , betaA
+  ai49 + us57 -> ai49 + ai57 , betaU
+  ai49 + us57 -> ai49 + as57 , lambda
+  ai49 + us70 -> ai49 + ai70 , betaU
+  ai49 + us70 -> ai49 + as70 , lambda
+  ai50 -> as50 , mu
+  ai50 + as34 -> ai34 + ai50 , betaA
+  ai50 + as74 -> ai50 + ai74 , betaA
+  ai50 + us34 -> ai34 + ai50 , betaU
+  ai50 + us34 -> ai50 + as34 , lambda
+  ai50 + us74 -> ai50 + ai74 , betaU
+  ai50 + us74 -> ai50 + as74 , lambda
+  ai51 -> as51 , mu
+  ai51 + as5 -> ai5 + ai51 , betaA
+  ai51 + as37 -> ai37 + ai51 , betaA
+  ai51 + us5 -> ai5 + ai51 , betaU
+  ai51 + us5 -> ai51 + as5 , lambda
+  ai51 + us37 -> ai37 + ai51 , betaU
+  ai51 + us37 -> ai51 + as37 , lambda
+  ai52 -> as52 , mu
+  ai52 + as2 -> ai2 + ai52 , betaA
+  ai52 + as6 -> ai6 + ai52 , betaA
+  ai52 + as16 -> ai16 + ai52 , betaA
+  ai52 + as26 -> ai26 + ai52 , betaA
+  ai52 + as34 -> ai34 + ai52 , betaA
+  ai52 + as36 -> ai36 + ai52 , betaA
+  ai52 + us2 -> ai2 + ai52 , betaU
+  ai52 + us2 -> ai52 + as2 , lambda
+  ai52 + us6 -> ai6 + ai52 , betaU
+  ai52 + us6 -> ai52 + as6 , lambda
+  ai52 + us16 -> ai16 + ai52 , betaU
+  ai52 + us16 -> ai52 + as16 , lambda
+  ai52 + us26 -> ai26 + ai52 , betaU
+  ai52 + us26 -> ai52 + as26 , lambda
+  ai52 + us34 -> ai34 + ai52 , betaU
+  ai52 + us34 -> ai52 + as34 , lambda
+  ai52 + us36 -> ai36 + ai52 , betaU
+  ai52 + us36 -> ai52 + as36 , lambda
+  ai53 -> as53 , mu
+  ai53 + as34 -> ai34 + ai53 , betaA
+  ai53 + as69 -> ai53 + ai69 , betaA
+  ai53 + us34 -> ai34 + ai53 , betaU
+  ai53 + us34 -> ai53 + as34 , lambda
+  ai53 + us69 -> ai53 + ai69 , betaU
+  ai53 + us69 -> ai53 + as69 , lambda
+  ai54 -> as54 , mu
+  ai54 + as25 -> ai25 + ai54 , betaA
+  ai54 + as34 -> ai34 + ai54 , betaA
+  ai54 + as83 -> ai54 + ai83 , betaA
+  ai54 + us25 -> ai25 + ai54 , betaU
+  ai54 + us25 -> ai54 + as25 , lambda
+  ai54 + us34 -> ai34 + ai54 , betaU
+  ai54 + us34 -> ai54 + as34 , lambda
+  ai54 + us83 -> ai54 + ai83 , betaU
+  ai54 + us83 -> ai54 + as83 , lambda
+  ai55 -> as55 , mu
+  ai55 + as42 -> ai42 + ai55 , betaA
+  ai55 + us42 -> ai42 + ai55 , betaU
+  ai55 + us42 -> ai55 + as42 , lambda
+  ai56 -> as56 , mu
+  ai56 + as10 -> ai10 + ai56 , betaA
+  ai56 + as15 -> ai15 + ai56 , betaA
+  ai56 + as19 -> ai19 + ai56 , betaA
+  ai56 + as28 -> ai28 + ai56 , betaA
+  ai56 + us10 -> ai10 + ai56 , betaU
+  ai56 + us10 -> ai56 + as10 , lambda
+  ai56 + us15 -> ai15 + ai56 , betaU
+  ai56 + us15 -> ai56 + as15 , lambda
+  ai56 + us19 -> ai19 + ai56 , betaU
+  ai56 + us19 -> ai56 + as19 , lambda
+  ai56 + us28 -> ai28 + ai56 , betaU
+  ai56 + us28 -> ai56 + as28 , lambda
+  ai57 -> as57 , mu
+  ai57 + as2 -> ai2 + ai57 , betaA
+  ai57 + as41 -> ai41 + ai57 , betaA
+  ai57 + as49 -> ai49 + ai57 , betaA
+  ai57 + as67 -> ai57 + ai67 , betaA
+  ai57 + us2 -> ai2 + ai57 , betaU
+  ai57 + us2 -> ai57 + as2 , lambda
+  ai57 + us41 -> ai41 + ai57 , betaU
+  ai57 + us41 -> ai57 + as41 , lambda
+  ai57 + us49 -> ai49 + ai57 , betaU
+  ai57 + us49 -> ai57 + as49 , lambda
+  ai57 + us67 -> ai57 + ai67 , betaU
+  ai57 + us67 -> ai57 + as67 , lambda
+  ai58 -> as58 , mu
+  ai58 + as74 -> ai58 + ai74 , betaA
+  ai58 + as76 -> ai58 + ai76 , betaA
+  ai58 + us74 -> ai58 + ai74 , betaU
+  ai58 + us74 -> ai58 + as74 , lambda
+  ai58 + us76 -> ai58 + ai76 , betaU
+  ai58 + us76 -> ai58 + as76 , lambda
+  ai59 -> as59 , mu
+  ai59 + as34 -> ai34 + ai59 , betaA
+  ai59 + as40 -> ai40 + ai59 , betaA
+  ai59 + us34 -> ai34 + ai59 , betaU
+  ai59 + us34 -> ai59 + as34 , lambda
+  ai59 + us40 -> ai40 + ai59 , betaU
+  ai59 + us40 -> ai59 + as40 , lambda
+  ai60 -> as60 , mu
+  ai60 + as34 -> ai34 + ai60 , betaA
+  ai60 + as44 -> ai44 + ai60 , betaA
+  ai60 + us34 -> ai34 + ai60 , betaU
+  ai60 + us34 -> ai60 + as34 , lambda
+  ai60 + us44 -> ai44 + ai60 , betaU
+  ai60 + us44 -> ai60 + as44 , lambda
+  ai61 -> as61 , (mu+mu)/2.0
+  ai61 + as34 -> ai34 + ai61 , (betaA+betaA)/2.0
+  ai61 + as61 -> 2*ai61 , (betaA+betaA)/4.0
+  ai61 + us34 -> ai34 + ai61 , (betaU+betaU)/2.0
+  ai61 + us34 -> ai61 + as34 , (lambda+lambda)/2.0
+  ai61 + us61 -> ai61 + as61 , (lambda+lambda)/4.0
+  ai61 + us61 -> 2*ai61 , (betaU+betaU)/4.0
+  ai62 -> as62 , mu
+  ai62 + as17 -> ai17 + ai62 , betaA
+  ai62 + as45 -> ai45 + ai62 , betaA
+  ai62 + us17 -> ai17 + ai62 , betaU
+  ai62 + us17 -> ai62 + as17 , lambda
+  ai62 + us45 -> ai45 + ai62 , betaU
+  ai62 + us45 -> ai62 + as45 , lambda
+  ai67 -> as67 , mu
+  ai67 + as16 -> ai16 + ai67 , betaA
+  ai67 + as20 -> ai20 + ai67 , betaA
+  ai67 + as57 -> ai57 + ai67 , betaA
+  ai67 + as79 -> ai67 + ai79 , betaA
+  ai67 + as92 -> ai67 + ai92 , betaA
+  ai67 + us16 -> ai16 + ai67 , betaU
+  ai67 + us16 -> ai67 + as16 , lambda
+  ai67 + us20 -> ai20 + ai67 , betaU
+  ai67 + us20 -> ai67 + as20 , lambda
+  ai67 + us57 -> ai57 + ai67 , betaU
+  ai67 + us57 -> ai67 + as57 , lambda
+  ai67 + us79 -> ai67 + ai79 , betaU
+  ai67 + us79 -> ai67 + as79 , lambda
+  ai67 + us92 -> ai67 + ai92 , betaU
+  ai67 + us92 -> ai67 + as92 , lambda
+  ai68 -> as68 , mu
+  ai68 + as98 -> ai68 + ai98 , betaA
+  ai68 + us98 -> ai68 + ai98 , betaU
+  ai68 + us98 -> ai68 + as98 , lambda
+  ai69 -> as69 , mu
+  ai69 + as34 -> ai34 + ai69 , betaA
+  ai69 + as42 -> ai42 + ai69 , betaA
+  ai69 + as53 -> ai53 + ai69 , betaA
+  ai69 + as72 -> ai69 + ai72 , betaA
+  ai69 + as80 -> ai69 + ai80 , betaA
+  ai69 + us34 -> ai34 + ai69 , betaU
+  ai69 + us34 -> ai69 + as34 , lambda
+  ai69 + us42 -> ai42 + ai69 , betaU
+  ai69 + us42 -> ai69 + as42 , lambda
+  ai69 + us53 -> ai53 + ai69 , betaU
+  ai69 + us53 -> ai69 + as53 , lambda
+  ai69 + us72 -> ai69 + ai72 , betaU
+  ai69 + us72 -> ai69 + as72 , lambda
+  ai69 + us80 -> ai69 + ai80 , betaU
+  ai69 + us80 -> ai69 + as80 , lambda
+  ai70 -> as70 , mu
+  ai70 + as49 -> ai49 + ai70 , betaA
+  ai70 + us49 -> ai49 + ai70 , betaU
+  ai70 + us49 -> ai70 + as49 , lambda
+  ai71 -> as71 , mu
+  ai71 + as14 -> ai14 + ai71 , (betaA+betaA)/2.0
+  ai71 + as17 -> ai17 + ai71 , betaA
+  ai71 + as34 -> ai34 + ai71 , betaA
+  ai71 + as35 -> ai35 + ai71 , betaA
+  ai71 + as40 -> ai40 + ai71 , betaA
+  ai71 + as44 -> ai44 + ai71 , betaA
+  ai71 + us14 -> ai14 + ai71 , (betaU+betaU)/2.0
+  ai71 + us14 -> ai71 + as14 , (lambda+lambda)/2.0
+  ai71 + us17 -> ai17 + ai71 , betaU
+  ai71 + us17 -> ai71 + as17 , lambda
+  ai71 + us34 -> ai34 + ai71 , betaU
+  ai71 + us34 -> ai71 + as34 , lambda
+  ai71 + us35 -> ai35 + ai71 , betaU
+  ai71 + us35 -> ai71 + as35 , lambda
+  ai71 + us40 -> ai40 + ai71 , betaU
+  ai71 + us40 -> ai71 + as40 , lambda
+  ai71 + us44 -> ai44 + ai71 , betaU
+  ai71 + us44 -> ai71 + as44 , lambda
+  ai72 -> as72 , mu
+  ai72 + as45 -> ai45 + ai72 , betaA
+  ai72 + as69 -> ai69 + ai72 , betaA
+  ai72 + us45 -> ai45 + ai72 , betaU
+  ai72 + us45 -> ai72 + as45 , lambda
+  ai72 + us69 -> ai69 + ai72 , betaU
+  ai72 + us69 -> ai72 + as69 , lambda
+  ai73 -> as73 , mu
+  ai73 + as34 -> ai34 + ai73 , betaA
+  ai73 + as85 -> ai73 + ai85 , betaA
+  ai73 + us34 -> ai34 + ai73 , betaU
+  ai73 + us34 -> ai73 + as34 , lambda
+  ai73 + us85 -> ai73 + ai85 , betaU
+  ai73 + us85 -> ai73 + as85 , lambda
+  ai74 -> as74 , mu
+  ai74 + as50 -> ai50 + ai74 , betaA
+  ai74 + as58 -> ai58 + ai74 , betaA
+  ai74 + us50 -> ai50 + ai74 , betaU
+  ai74 + us50 -> ai74 + as50 , lambda
+  ai74 + us58 -> ai58 + ai74 , betaU
+  ai74 + us58 -> ai74 + as58 , lambda
+  ai75 -> as75 , mu
+  ai75 + as1 -> ai1 + ai75 , betaA
+  ai75 + as16 -> ai16 + ai75 , betaA
+  ai75 + us1 -> ai1 + ai75 , betaU
+  ai75 + us1 -> ai75 + as1 , lambda
+  ai75 + us16 -> ai16 + ai75 , betaU
+  ai75 + us16 -> ai75 + as16 , lambda
+  ai76 -> as76 , mu
+  ai76 + as16 -> ai16 + ai76 , betaA
+  ai76 + as58 -> ai58 + ai76 , betaA
+  ai76 + us16 -> ai16 + ai76 , betaU
+  ai76 + us16 -> ai76 + as16 , lambda
+  ai76 + us58 -> ai58 + ai76 , betaU
+  ai76 + us58 -> ai76 + as58 , lambda
+  ai79 -> as79 , mu
+  ai79 + as34 -> ai34 + ai79 , betaA
+  ai79 + as67 -> ai67 + ai79 , betaA
+  ai79 + us34 -> ai34 + ai79 , betaU
+  ai79 + us34 -> ai79 + as34 , lambda
+  ai79 + us67 -> ai67 + ai79 , betaU
+  ai79 + us67 -> ai79 + as67 , lambda
+  ai80 -> as80 , mu
+  ai80 + as16 -> ai16 + ai80 , betaA
+  ai80 + as21 -> ai21 + ai80 , (betaA+betaA)/2.0
+  ai80 + as34 -> ai34 + ai80 , betaA
+  ai80 + as69 -> ai69 + ai80 , betaA
+  ai80 + as95 -> ai80 + ai95 , betaA
+  ai80 + us16 -> ai16 + ai80 , betaU
+  ai80 + us16 -> ai80 + as16 , lambda
+  ai80 + us21 -> ai21 + ai80 , (betaU+betaU)/2.0
+  ai80 + us21 -> ai80 + as21 , (lambda+lambda)/2.0
+  ai80 + us34 -> ai34 + ai80 , betaU
+  ai80 + us34 -> ai80 + as34 , lambda
+  ai80 + us69 -> ai69 + ai80 , betaU
+  ai80 + us69 -> ai80 + as69 , lambda
+  ai80 + us95 -> ai80 + ai95 , betaU
+  ai80 + us95 -> ai80 + as95 , lambda
+  ai83 -> as83 , mu
+  ai83 + as34 -> ai34 + ai83 , betaA
+  ai83 + as41 -> ai41 + ai83 , betaA
+  ai83 + as54 -> ai54 + ai83 , betaA
+  ai83 + us34 -> ai34 + ai83 , betaU
+  ai83 + us34 -> ai83 + as34 , lambda
+  ai83 + us41 -> ai41 + ai83 , betaU
+  ai83 + us41 -> ai83 + as41 , lambda
+  ai83 + us54 -> ai54 + ai83 , betaU
+  ai83 + us54 -> ai83 + as54 , lambda
+  ai85 -> as85 , mu
+  ai85 + as3 -> ai3 + ai85 , betaA
+  ai85 + as34 -> ai34 + ai85 , betaA
+  ai85 + as73 -> ai73 + ai85 , betaA
+  ai85 + us3 -> ai3 + ai85 , betaU
+  ai85 + us3 -> ai85 + as3 , lambda
+  ai85 + us34 -> ai34 + ai85 , betaU
+  ai85 + us34 -> ai85 + as34 , lambda
+  ai85 + us73 -> ai73 + ai85 , betaU
+  ai85 + us73 -> ai85 + as73 , lambda
+  ai87 -> as87 , mu
+  ai87 + as38 -> ai38 + ai87 , betaA
+  ai87 + as41 -> ai41 + ai87 , betaA
+  ai87 + us38 -> ai38 + ai87 , betaU
+  ai87 + us38 -> ai87 + as38 , lambda
+  ai87 + us41 -> ai41 + ai87 , betaU
+  ai87 + us41 -> ai87 + as41 , lambda
+  ai89 -> as89 , mu
+  ai89 + as46 -> ai46 + ai89 , betaA
+  ai89 + as98 -> ai89 + ai98 , betaA
+  ai89 + us46 -> ai46 + ai89 , betaU
+  ai89 + us46 -> ai89 + as46 , lambda
+  ai89 + us98 -> ai89 + ai98 , betaU
+  ai89 + us98 -> ai89 + as98 , lambda
+  ai92 -> as92 , mu
+  ai92 + as1 -> ai1 + ai92 , betaA
+  ai92 + as34 -> ai34 + ai92 , betaA
+  ai92 + as67 -> ai67 + ai92 , betaA
+  ai92 + as98 -> ai92 + ai98 , betaA
+  ai92 + us1 -> ai1 + ai92 , betaU
+  ai92 + us1 -> ai92 + as1 , lambda
+  ai92 + us34 -> ai34 + ai92 , betaU
+  ai92 + us34 -> ai92 + as34 , lambda
+  ai92 + us67 -> ai67 + ai92 , betaU
+  ai92 + us67 -> ai92 + as67 , lambda
+  ai92 + us98 -> ai92 + ai98 , betaU
+  ai92 + us98 -> ai92 + as98 , lambda
+  ai94 -> as94 , mu
+  ai94 + as16 -> ai16 + ai94 , betaA
+  ai94 + as45 -> ai45 + ai94 , betaA
+  ai94 + us16 -> ai16 + ai94 , betaU
+  ai94 + us16 -> ai94 + as16 , lambda
+  ai94 + us45 -> ai45 + ai94 , betaU
+  ai94 + us45 -> ai94 + as45 , lambda
+  ai95 -> as95 , mu
+  ai95 + as9 -> ai9 + ai95 , betaA
+  ai95 + as80 -> ai80 + ai95 , betaA
+  ai95 + us9 -> ai9 + ai95 , betaU
+  ai95 + us9 -> ai95 + as9 , lambda
+  ai95 + us80 -> ai80 + ai95 , betaU
+  ai95 + us80 -> ai95 + as80 , lambda
+  ai96 -> as96 , mu
+  ai96 + as17 -> ai17 + ai96 , betaA
+  ai96 + us17 -> ai17 + ai96 , betaU
+  ai96 + us17 -> ai96 + as17 , lambda
+  ai97 -> as97 , mu
+  ai97 + as26 -> ai26 + ai97 , betaA
+  ai97 + us26 -> ai26 + ai97 , betaU
+  ai97 + us26 -> ai97 + as26 , lambda
+  ai98 -> as98 , mu
+  ai98 + as34 -> ai34 + ai98 , betaA
+  ai98 + as68 -> ai68 + ai98 , betaA
+  ai98 + as89 -> ai89 + ai98 , betaA
+  ai98 + as92 -> ai92 + ai98 , betaA
+  ai98 + us34 -> ai34 + ai98 , betaU
+  ai98 + us34 -> ai98 + as34 , lambda
+  ai98 + us68 -> ai68 + ai98 , betaU
+  ai98 + us68 -> ai98 + as68 , lambda
+  ai98 + us89 -> ai89 + ai98 , betaU
+  ai98 + us89 -> ai98 + as89 , lambda
+  ai98 + us92 -> ai92 + ai98 , betaU
+  ai98 + us92 -> ai98 + as92 , lambda
+  ai100 -> as100 , mu
+  ai100 + as44 -> ai44 + ai100 , betaA
+  ai100 + as45 -> ai45 + ai100 , betaA
+  ai100 + us44 -> ai44 + ai100 , betaU
+  ai100 + us44 -> ai100 + as44 , lambda
+  ai100 + us45 -> ai45 + ai100 , betaU
+  ai100 + us45 -> ai100 + as45 , lambda
+  as1 -> us1 , del
+  as1 + us2 -> as1 + as2 , lambda
+  as1 + us17 -> as1 + as17 , lambda
+  as1 + us31 -> as1 + as31 , lambda
+  as1 + us34 -> as1 + as34 , lambda
+  as1 + us47 -> as1 + as47 , lambda
+  as1 + us75 -> as1 + as75 , lambda
+  as1 + us92 -> as1 + as92 , lambda
+  as2 -> us2 , del
+  as2 + us1 -> as1 + as2 , lambda
+  as2 + us16 -> as2 + as16 , lambda
+  as2 + us34 -> as2 + as34 , lambda
+  as2 + us52 -> as2 + as52 , lambda
+  as2 + us57 -> as2 + as57 , lambda
+  as3 -> us3 , del
+  as3 + us85 -> as3 + as85 , lambda
+  as4 -> us4 , (del+del+del+del+del+del+del+del)/8.0
+  as4 + us34 -> as4 + as34 , (lambda+lambda+lambda+lambda+lambda+lambda+lambda+lambda)/8.0
+  as5 -> us5 , del
+  as5 + us16 -> as5 + as16 , lambda
+  as5 + us34 -> as5 + as34 , lambda
+  as5 + us51 -> as5 + as51 , lambda
+  as6 -> us6 , del
+  as6 + us44 -> as6 + as44 , lambda
+  as6 + us52 -> as6 + as52 , lambda
+  as7 -> us7 , (del+del+del)/3.0
+  as7 + us16 -> as7 + as16 , (lambda+lambda+lambda)/3.0
+  as7 + us34 -> as7 + as34 , (lambda+lambda+lambda)/3.0
+  as9 -> us9 , del
+  as9 + us16 -> as9 + as16 , lambda
+  as9 + us95 -> as9 + as95 , lambda
+  as10 -> us10 , del
+  as10 + us30 -> as10 + as30 , lambda
+  as10 + us56 -> as10 + as56 , lambda
+  as11 -> us11 , (del+del)/2.0
+  as11 + us34 -> as11 + as34 , (lambda+lambda)/2.0
+  as11 + us37 -> as11 + as37 , (lambda+lambda)/2.0
+  as13 -> us13 , del
+  as13 + us16 -> as13 + as16 , lambda
+  as14 -> us14 , (del+del)/2.0
+  as14 + us71 -> as14 + as71 , (lambda+lambda)/2.0
+  as15 -> us15 , del
+  as15 + us33 -> as15 + as33 , lambda
+  as15 + us56 -> as15 + as56 , lambda
+  as16 -> us16 , del
+  as16 + us2 -> as2 + as16 , lambda
+  as16 + us5 -> as5 + as16 , lambda
+  as16 + us7 -> as7 + as16 , (lambda+lambda+lambda)/3.0
+  as16 + us9 -> as9 + as16 , lambda
+  as16 + us13 -> as13 + as16 , lambda
+  as16 + us17 -> as16 + as17 , lambda
+  as16 + us26 -> as16 + as26 , lambda
+  as16 + us27 -> as16 + as27 , (lambda+lambda)/2.0
+  as16 + us34 -> as16 + as34 , lambda
+  as16 + us40 -> as16 + as40 , lambda
+  as16 + us44 -> as16 + as44 , lambda
+  as16 + us45 -> as16 + as45 , lambda
+  as16 + us47 -> as16 + as47 , lambda
+  as16 + us52 -> as16 + as52 , lambda
+  as16 + us67 -> as16 + as67 , lambda
+  as16 + us75 -> as16 + as75 , lambda
+  as16 + us76 -> as16 + as76 , lambda
+  as16 + us80 -> as16 + as80 , lambda
+  as16 + us94 -> as16 + as94 , lambda
+  as17 -> us17 , del
+  as17 + us1 -> as1 + as17 , lambda
+  as17 + us16 -> as16 + as17 , lambda
+  as17 + us34 -> as17 + as34 , lambda
+  as17 + us37 -> as17 + as37 , lambda
+  as17 + us62 -> as17 + as62 , lambda
+  as17 + us71 -> as17 + as71 , lambda
+  as17 + us96 -> as17 + as96 , lambda
+  as19 -> us19 , del
+  as19 + us56 -> as19 + as56 , lambda
+  as20 -> us20 , del
+  as20 + us67 -> as20 + as67 , lambda
+  as21 -> us21 , (del+del)/2.0
+  as21 + us80 -> as21 + as80 , (lambda+lambda)/2.0
+  as22 -> us22 , (del+del+del+del+del+del)/6.0
+  as22 + us22 -> 2*as22 , (lambda+lambda+lambda+lambda+lambda+lambda)/36.0
+  as24 -> us24 , (del+del+del)/3.0
+  as24 + us44 -> as24 + as44 , (lambda+lambda+lambda)/3.0
+  as25 -> us25 , del
+  as25 + us54 -> as25 + as54 , lambda
+  as26 -> us26 , del
+  as26 + us16 -> as16 + as26 , lambda
+  as26 + us34 -> as26 + as34 , lambda
+  as26 + us52 -> as26 + as52 , lambda
+  as26 + us97 -> as26 + as97 , lambda
+  as27 -> us27 , (del+del)/2.0
+  as27 + us16 -> as16 + as27 , (lambda+lambda)/2.0
+  as27 + us39 -> as27 + as39 , (lambda+lambda)/4.0
+  as28 -> us28 , del
+  as28 + us34 -> as28 + as34 , lambda
+  as28 + us56 -> as28 + as56 , lambda
+  as29 -> us29 , del
+  as29 + us45 -> as29 + as45 , lambda
+  as30 -> us30 , del
+  as30 + us10 -> as10 + as30 , lambda
+  as31 -> us31 , del
+  as31 + us1 -> as1 + as31 , lambda
+  as33 -> us33 , del
+  as33 + us15 -> as15 + as33 , lambda
+  as33 + us34 -> as33 + as34 , lambda
+  as34 -> us34 , del
+  as34 + us1 -> as1 + as34 , lambda
+  as34 + us2 -> as2 + as34 , lambda
+  as34 + us4 -> as4 + as34 , (lambda+lambda+lambda+lambda+lambda+lambda+lambda+lambda)/8.0
+  as34 + us5 -> as5 + as34 , lambda
+  as34 + us7 -> as7 + as34 , (lambda+lambda+lambda)/3.0
+  as34 + us11 -> as11 + as34 , (lambda+lambda)/2.0
+  as34 + us16 -> as16 + as34 , lambda
+  as34 + us17 -> as17 + as34 , lambda
+  as34 + us26 -> as26 + as34 , lambda
+  as34 + us28 -> as28 + as34 , lambda
+  as34 + us33 -> as33 + as34 , lambda
+  as34 + us35 -> as34 + as35 , lambda
+  as34 + us38 -> as34 + as38 , lambda
+  as34 + us39 -> as34 + as39 , (lambda+lambda)/2.0
+  as34 + us40 -> as34 + as40 , lambda
+  as34 + us42 -> as34 + as42 , lambda
+  as34 + us44 -> as34 + as44 , lambda
+  as34 + us45 -> as34 + as45 , lambda
+  as34 + us47 -> as34 + as47 , lambda
+  as34 + us50 -> as34 + as50 , lambda
+  as34 + us52 -> as34 + as52 , lambda
+  as34 + us53 -> as34 + as53 , lambda
+  as34 + us54 -> as34 + as54 , lambda
+  as34 + us59 -> as34 + as59 , lambda
+  as34 + us60 -> as34 + as60 , lambda
+  as34 + us61 -> as34 + as61 , (lambda+lambda)/2.0
+  as34 + us69 -> as34 + as69 , lambda
+  as34 + us71 -> as34 + as71 , lambda
+  as34 + us73 -> as34 + as73 , lambda
+  as34 + us79 -> as34 + as79 , lambda
+  as34 + us80 -> as34 + as80 , lambda
+  as34 + us83 -> as34 + as83 , lambda
+  as34 + us85 -> as34 + as85 , lambda
+  as34 + us92 -> as34 + as92 , lambda
+  as34 + us98 -> as34 + as98 , lambda
+  as35 -> us35 , del
+  as35 + us34 -> as34 + as35 , lambda
+  as35 + us71 -> as35 + as71 , lambda
+  as36 -> us36 , del
+  as36 + us52 -> as36 + as52 , lambda
+  as37 -> us37 , del
+  as37 + us11 -> as11 + as37 , (lambda+lambda)/2.0
+  as37 + us17 -> as17 + as37 , lambda
+  as37 + us51 -> as37 + as51 , lambda
+  as38 -> us38 , del
+  as38 + us34 -> as34 + as38 , lambda
+  as38 + us87 -> as38 + as87 , lambda
+  as39 -> us39 , (del+del)/2.0
+  as39 + us27 -> as27 + as39 , (lambda+lambda)/4.0
+  as39 + us34 -> as34 + as39 , (lambda+lambda)/2.0
+  as40 -> us40 , del
+  as40 + us16 -> as16 + as40 , lambda
+  as40 + us34 -> as34 + as40 , lambda
+  as40 + us59 -> as40 + as59 , lambda
+  as40 + us71 -> as40 + as71 , lambda
+  as41 -> us41 , del
+  as41 + us57 -> as41 + as57 , lambda
+  as41 + us83 -> as41 + as83 , lambda
+  as41 + us87 -> as41 + as87 , lambda
+  as42 -> us42 , del
+  as42 + us34 -> as34 + as42 , lambda
+  as42 + us55 -> as42 + as55 , lambda
+  as42 + us69 -> as42 + as69 , lambda
+  as44 -> us44 , del
+  as44 + us6 -> as6 + as44 , lambda
+  as44 + us16 -> as16 + as44 , lambda
+  as44 + us24 -> as24 + as44 , (lambda+lambda+lambda)/3.0
+  as44 + us34 -> as34 + as44 , lambda
+  as44 + us60 -> as44 + as60 , lambda
+  as44 + us71 -> as44 + as71 , lambda
+  as44 + us100 -> as44 + as100 , lambda
+  as45 -> us45 , del
+  as45 + us16 -> as16 + as45 , lambda
+  as45 + us29 -> as29 + as45 , lambda
+  as45 + us34 -> as34 + as45 , lambda
+  as45 + us62 -> as45 + as62 , lambda
+  as45 + us72 -> as45 + as72 , lambda
+  as45 + us94 -> as45 + as94 , lambda
+  as45 + us100 -> as45 + as100 , lambda
+  as46 -> us46 , del
+  as46 + us89 -> as46 + as89 , lambda
+  as47 -> us47 , del
+  as47 + us1 -> as1 + as47 , lambda
+  as47 + us16 -> as16 + as47 , lambda
+  as47 + us34 -> as34 + as47 , lambda
+  as49 -> us49 , del
+  as49 + us57 -> as49 + as57 , lambda
+  as49 + us70 -> as49 + as70 , lambda
+  as50 -> us50 , del
+  as50 + us34 -> as34 + as50 , lambda
+  as50 + us74 -> as50 + as74 , lambda
+  as51 -> us51 , del
+  as51 + us5 -> as5 + as51 , lambda
+  as51 + us37 -> as37 + as51 , lambda
+  as52 -> us52 , del
+  as52 + us2 -> as2 + as52 , lambda
+  as52 + us6 -> as6 + as52 , lambda
+  as52 + us16 -> as16 + as52 , lambda
+  as52 + us26 -> as26 + as52 , lambda
+  as52 + us34 -> as34 + as52 , lambda
+  as52 + us36 -> as36 + as52 , lambda
+  as53 -> us53 , del
+  as53 + us34 -> as34 + as53 , lambda
+  as53 + us69 -> as53 + as69 , lambda
+  as54 -> us54 , del
+  as54 + us25 -> as25 + as54 , lambda
+  as54 + us34 -> as34 + as54 , lambda
+  as54 + us83 -> as54 + as83 , lambda
+  as55 -> us55 , del
+  as55 + us42 -> as42 + as55 , lambda
+  as56 -> us56 , del
+  as56 + us10 -> as10 + as56 , lambda
+  as56 + us15 -> as15 + as56 , lambda
+  as56 + us19 -> as19 + as56 , lambda
+  as56 + us28 -> as28 + as56 , lambda
+  as57 -> us57 , del
+  as57 + us2 -> as2 + as57 , lambda
+  as57 + us41 -> as41 + as57 , lambda
+  as57 + us49 -> as49 + as57 , lambda
+  as57 + us67 -> as57 + as67 , lambda
+  as58 -> us58 , del
+  as58 + us74 -> as58 + as74 , lambda
+  as58 + us76 -> as58 + as76 , lambda
+  as59 -> us59 , del
+  as59 + us34 -> as34 + as59 , lambda
+  as59 + us40 -> as40 + as59 , lambda
+  as60 -> us60 , del
+  as60 + us34 -> as34 + as60 , lambda
+  as60 + us44 -> as44 + as60 , lambda
+  as61 -> us61 , (del+del)/2.0
+  as61 + us34 -> as34 + as61 , (lambda+lambda)/2.0
+  as61 + us61 -> 2*as61 , (lambda+lambda)/4.0
+  as62 -> us62 , del
+  as62 + us17 -> as17 + as62 , lambda
+  as62 + us45 -> as45 + as62 , lambda
+  as67 -> us67 , del
+  as67 + us16 -> as16 + as67 , lambda
+  as67 + us20 -> as20 + as67 , lambda
+  as67 + us57 -> as57 + as67 , lambda
+  as67 + us79 -> as67 + as79 , lambda
+  as67 + us92 -> as67 + as92 , lambda
+  as68 -> us68 , del
+  as68 + us98 -> as68 + as98 , lambda
+  as69 -> us69 , del
+  as69 + us34 -> as34 + as69 , lambda
+  as69 + us42 -> as42 + as69 , lambda
+  as69 + us53 -> as53 + as69 , lambda
+  as69 + us72 -> as69 + as72 , lambda
+  as69 + us80 -> as69 + as80 , lambda
+  as70 -> us70 , del
+  as70 + us49 -> as49 + as70 , lambda
+  as71 -> us71 , del
+  as71 + us14 -> as14 + as71 , (lambda+lambda)/2.0
+  as71 + us17 -> as17 + as71 , lambda
+  as71 + us34 -> as34 + as71 , lambda
+  as71 + us35 -> as35 + as71 , lambda
+  as71 + us40 -> as40 + as71 , lambda
+  as71 + us44 -> as44 + as71 , lambda
+  as72 -> us72 , del
+  as72 + us45 -> as45 + as72 , lambda
+  as72 + us69 -> as69 + as72 , lambda
+  as73 -> us73 , del
+  as73 + us34 -> as34 + as73 , lambda
+  as73 + us85 -> as73 + as85 , lambda
+  as74 -> us74 , del
+  as74 + us50 -> as50 + as74 , lambda
+  as74 + us58 -> as58 + as74 , lambda
+  as75 -> us75 , del
+  as75 + us1 -> as1 + as75 , lambda
+  as75 + us16 -> as16 + as75 , lambda
+  as76 -> us76 , del
+  as76 + us16 -> as16 + as76 , lambda
+  as76 + us58 -> as58 + as76 , lambda
+  as79 -> us79 , del
+  as79 + us34 -> as34 + as79 , lambda
+  as79 + us67 -> as67 + as79 , lambda
+  as80 -> us80 , del
+  as80 + us16 -> as16 + as80 , lambda
+  as80 + us21 -> as21 + as80 , (lambda+lambda)/2.0
+  as80 + us34 -> as34 + as80 , lambda
+  as80 + us69 -> as69 + as80 , lambda
+  as80 + us95 -> as80 + as95 , lambda
+  as83 -> us83 , del
+  as83 + us34 -> as34 + as83 , lambda
+  as83 + us41 -> as41 + as83 , lambda
+  as83 + us54 -> as54 + as83 , lambda
+  as85 -> us85 , del
+  as85 + us3 -> as3 + as85 , lambda
+  as85 + us34 -> as34 + as85 , lambda
+  as85 + us73 -> as73 + as85 , lambda
+  as87 -> us87 , del
+  as87 + us38 -> as38 + as87 , lambda
+  as87 + us41 -> as41 + as87 , lambda
+  as89 -> us89 , del
+  as89 + us46 -> as46 + as89 , lambda
+  as89 + us98 -> as89 + as98 , lambda
+  as92 -> us92 , del
+  as92 + us1 -> as1 + as92 , lambda
+  as92 + us34 -> as34 + as92 , lambda
+  as92 + us67 -> as67 + as92 , lambda
+  as92 + us98 -> as92 + as98 , lambda
+  as94 -> us94 , del
+  as94 + us16 -> as16 + as94 , lambda
+  as94 + us45 -> as45 + as94 , lambda
+  as95 -> us95 , del
+  as95 + us9 -> as9 + as95 , lambda
+  as95 + us80 -> as80 + as95 , lambda
+  as96 -> us96 , del
+  as96 + us17 -> as17 + as96 , lambda
+  as97 -> us97 , del
+  as97 + us26 -> as26 + as97 , lambda
+  as98 -> us98 , del
+  as98 + us34 -> as34 + as98 , lambda
+  as98 + us68 -> as68 + as98 , lambda
+  as98 + us89 -> as89 + as98 , lambda
+  as98 + us92 -> as92 + as98 , lambda
+  as100 -> us100 , del
+  as100 + us44 -> as44 + as100 , lambda
+  as100 + us45 -> as45 + as100 , lambda
+ end reactions
+ begin views
+  vas89 = as89/1
+  vas1 = as1/1
+  vas68 = as68/1
+  vai38 = ai38/1
+  vai10 = ai10/1
+  vus73 = us73/1
+  vus30 = us30/1
+  vai100 = ai100/1
+  vas56 = as56/1
+  vai60 = ai60/1
+  vai16 = ai16/1
+  vas2 = as2/1
+  vus26 = us26/1
+  vai47 = ai47/1
+  vas100 = as100/1
+  vus89 = us89/1
+  vai22 = ai22/6
+  vus79 = us79/1
+  vus59 = us59/1
+  vas51 = as51/1
+  vas92 = as92/1
+  vas29 = as29/1
+  vai30 = ai30/1
+  vas62 = as62/1
+  vai27 = ai27/2
+  vus3 = us3/1
+  vus97 = us97/1
+  vai58 = ai58/1
+  vus68 = us68/1
+  vas45 = as45/1
+  vas10 = as10/1
+  vas14 = as14/2
+  vai95 = ai95/1
+  vas94 = as94/1
+  vai36 = ai36/1
+  vas83 = as83/1
+  vus50 = us50/1
+  vas16 = as16/1
+  vas80 = as80/1
+  vai83 = ai83/1
+  vai42 = ai42/1
+  vas52 = as52/1
+  vai69 = ai69/1
+  vai79 = ai79/1
+  vai2 = ai2/1
+  vai13 = ai13/1
+  vas76 = as76/1
+  vai14 = ai14/2
+  vas95 = as95/1
+  vus10 = us10/1
+  vas15 = as15/1
+  vus45 = us45/1
+  vai73 = ai73/1
+  vai59 = ai59/1
+  vai70 = ai70/1
+  vai33 = ai33/1
+  vas36 = as36/1
+  vai28 = ai28/1
+  vus14 = us14/2
+  vus72 = us72/1
+  vai53 = ai53/1
+  vai29 = ai29/1
+  vus21 = us21/2
+  vus28 = us28/1
+  vus34 = us34/1
+  vus54 = us54/1
+  vai41 = ai41/1
+  vus69 = us69/1
+  vus87 = us87/1
+  vus33 = us33/1
+  vas28 = as28/1
+  vas97 = as97/1
+  vai34 = ai34/1
+  vas5 = as5/1
+  vas58 = as58/1
+  vai80 = ai80/1
+  vus40 = us40/1
+  vas71 = as71/1
+  vus27 = us27/2
+  vas74 = as74/1
+  vas30 = as30/1
+  vas49 = as49/1
+  vas35 = as35/1
+  vai17 = ai17/1
+  vus41 = us41/1
+  vus35 = us35/1
+  vus15 = us15/1
+  vai56 = ai56/1
+  vai21 = ai21/2
+  vas33 = as33/1
+  vas27 = as27/2
+  vus96 = us96/1
+  vai49 = ai49/1
+  vai71 = ai71/1
+  vas46 = as46/1
+  vai50 = ai50/1
+  vai97 = ai97/1
+  vai7 = ai7/3
+  vai40 = ai40/1
+  vus5 = us5/1
+  vai75 = ai75/1
+  vus19 = us19/1
+  vus39 = us39/2
+  vas38 = as38/1
+  vus51 = us51/1
+  vai31 = ai31/1
+  vas87 = as87/1
+  vus70 = us70/1
+  vai37 = ai37/1
+  vus4 = us4/8
+  vas21 = as21/2
+  vus29 = us29/1
+  vus76 = us76/1
+  vas24 = as24/3
+  vas85 = as85/1
+  vus46 = us46/1
+  vai67 = ai67/1
+  vai44 = ai44/1
+  vas70 = as70/1
+  vus22 = us22/6
+  vai52 = ai52/1
+  vus94 = us94/1
+  vus67 = us67/1
+  vus55 = us55/1
+  vas37 = as37/1
+  vai62 = ai62/1
+  vas26 = as26/1
+  vas59 = as59/1
+  vai15 = ai15/1
+  vai1 = ai1/1
+  vai46 = ai46/1
+  vus98 = us98/1
+  vas4 = as4/8
+  vai98 = ai98/1
+  vas55 = as55/1
+  vus13 = us13/1
+  vus31 = us31/1
+  vus53 = us53/1
+  vus92 = us92/1
+  vas41 = as41/1
+  vas69 = as69/1
+  vas25 = as25/1
+  vus100 = us100/1
+  vus16 = us16/1
+  vas20 = as20/1
+  vas3 = as3/1
+  vai5 = ai5/1
+  vas79 = as79/1
+  vai6 = ai6/1
+  vas98 = as98/1
+  vai35 = ai35/1
+  vus49 = us49/1
+  vai4 = ai4/8
+  vas50 = as50/1
+  vus95 = us95/1
+  vas19 = as19/1
+  vus60 = us60/1
+  vus62 = us62/1
+  vus74 = us74/1
+  vai55 = ai55/1
+  vas67 = as67/1
+  vai24 = ai24/3
+  vai26 = ai26/1
+  vai45 = ai45/1
+  vus24 = us24/3
+  vas73 = as73/1
+  vas75 = as75/1
+  vai96 = ai96/1
+  vus57 = us57/1
+  vas39 = as39/2
+  vas7 = as7/3
+  vus25 = us25/1
+  vas40 = as40/1
+  vas47 = as47/1
+  vas54 = as54/1
+  vus7 = us7/3
+  vai20 = ai20/1
+  vus71 = us71/1
+  vai85 = ai85/1
+  vas17 = as17/1
+  vus1 = us1/1
+  vas44 = as44/1
+  vus2 = us2/1
+  vas72 = as72/1
+  vus36 = us36/1
+  vai11 = ai11/2
+  vas6 = as6/1
+  vas13 = as13/1
+  vai68 = ai68/1
+  vai76 = ai76/1
+  vus75 = us75/1
+  vai72 = ai72/1
+  vai9 = ai9/1
+  vus9 = us9/1
+  vas61 = as61/2
+  vas9 = as9/1
+  vas34 = as34/1
+  vus85 = us85/1
+  vas60 = as60/1
+  vas57 = as57/1
+  vus52 = us52/1
+  vai54 = ai54/1
+  vas53 = as53/1
+  vus58 = us58/1
+  vus83 = us83/1
+  vus47 = us47/1
+  vai39 = ai39/2
+  vai61 = ai61/2
+  vai89 = ai89/1
+  vus37 = us37/1
+  vus44 = us44/1
+  vus61 = us61/2
+  vus6 = us6/1
+  vas31 = as31/1
+  vus17 = us17/1
+  vai51 = ai51/1
+  vai92 = ai92/1
+  vai25 = ai25/1
+  vus80 = us80/1
+  vas96 = as96/1
+  vas42 = as42/1
+  vai94 = ai94/1
+  vas22 = as22/6
+  vai19 = ai19/1
+  vai87 = ai87/1
+  vus11 = us11/2
+  vai57 = ai57/1
+  vai3 = ai3/1
+  vus20 = us20/1
+  vai74 = ai74/1
+  vus42 = us42/1
+  vus38 = us38/1
+  vus56 = us56/1
+  vas11 = as11/2
+ end views
+
+//Comments associated to the species
+//ai1:  
+  //Singleton block 
+  // 	ai1
+//ai2:  
+  //Singleton block 
+  // 	ai2
+//ai3:  
+  //Singleton block 
+  // 	ai3
+//ai4:  
+  //Representative of block (with 8 species)
+  // 	ai4
+  // 	ai8
+  // 	ai12
+  // 	ai32
+  // 	ai64
+  // 	ai86
+  // 	ai90
+  // 	ai93
+//ai5:  
+  //Singleton block 
+  // 	ai5
+//ai6:  
+  //Singleton block 
+  // 	ai6
+//ai7:  
+  //Representative of block (with 3 species)
+  // 	ai7
+  // 	ai18
+  // 	ai23
+//ai9:  
+  //Singleton block 
+  // 	ai9
+//ai10:  
+  //Singleton block 
+  // 	ai10
+//ai11:  
+  //Representative of block (with 2 species)
+  // 	ai11
+  // 	ai65
+//ai13:  
+  //Singleton block 
+  // 	ai13
+//ai14:  
+  //Representative of block (with 2 species)
+  // 	ai14
+  // 	ai91
+//ai15:  
+  //Singleton block 
+  // 	ai15
+//ai16:  
+  //Singleton block 
+  // 	ai16
+//ai17:  
+  //Singleton block 
+  // 	ai17
+//ai19:  
+  //Singleton block 
+  // 	ai19
+//ai20:  
+  //Singleton block 
+  // 	ai20
+//ai21:  
+  //Representative of block (with 2 species)
+  // 	ai21
+  // 	ai63
+//ai22:  
+  //Representative of block (with 6 species)
+  // 	ai78
+  // 	ai22
+  // 	ai77
+  // 	ai43
+  // 	ai99
+  // 	ai66
+//ai24:  
+  //Representative of block (with 3 species)
+  // 	ai24
+  // 	ai82
+  // 	ai88
+//ai25:  
+  //Singleton block 
+  // 	ai25
+//ai26:  
+  //Singleton block 
+  // 	ai26
+//ai27:  
+  //Representative of block (with 2 species)
+  // 	ai48
+  // 	ai27
+//ai28:  
+  //Singleton block 
+  // 	ai28
+//ai29:  
+  //Singleton block 
+  // 	ai29
+//ai30:  
+  //Singleton block 
+  // 	ai30
+//ai31:  
+  //Singleton block 
+  // 	ai31
+//ai33:  
+  //Singleton block 
+  // 	ai33
+//ai34:  
+  //Singleton block 
+  // 	ai34
+//ai35:  
+  //Singleton block 
+  // 	ai35
+//ai36:  
+  //Singleton block 
+  // 	ai36
+//ai37:  
+  //Singleton block 
+  // 	ai37
+//ai38:  
+  //Singleton block 
+  // 	ai38
+//ai39:  
+  //Representative of block (with 2 species)
+  // 	ai39
+  // 	ai81
+//ai40:  
+  //Singleton block 
+  // 	ai40
+//ai41:  
+  //Singleton block 
+  // 	ai41
+//ai42:  
+  //Singleton block 
+  // 	ai42
+//ai44:  
+  //Singleton block 
+  // 	ai44
+//ai45:  
+  //Singleton block 
+  // 	ai45
+//ai46:  
+  //Singleton block 
+  // 	ai46
+//ai47:  
+  //Singleton block 
+  // 	ai47
+//ai49:  
+  //Singleton block 
+  // 	ai49
+//ai50:  
+  //Singleton block 
+  // 	ai50
+//ai51:  
+  //Singleton block 
+  // 	ai51
+//ai52:  
+  //Singleton block 
+  // 	ai52
+//ai53:  
+  //Singleton block 
+  // 	ai53
+//ai54:  
+  //Singleton block 
+  // 	ai54
+//ai55:  
+  //Singleton block 
+  // 	ai55
+//ai56:  
+  //Singleton block 
+  // 	ai56
+//ai57:  
+  //Singleton block 
+  // 	ai57
+//ai58:  
+  //Singleton block 
+  // 	ai58
+//ai59:  
+  //Singleton block 
+  // 	ai59
+//ai60:  
+  //Singleton block 
+  // 	ai60
+//ai61:  
+  //Representative of block (with 2 species)
+  // 	ai61
+  // 	ai84
+//ai62:  
+  //Singleton block 
+  // 	ai62
+//ai67:  
+  //Singleton block 
+  // 	ai67
+//ai68:  
+  //Singleton block 
+  // 	ai68
+//ai69:  
+  //Singleton block 
+  // 	ai69
+//ai70:  
+  //Singleton block 
+  // 	ai70
+//ai71:  
+  //Singleton block 
+  // 	ai71
+//ai72:  
+  //Singleton block 
+  // 	ai72
+//ai73:  
+  //Singleton block 
+  // 	ai73
+//ai74:  
+  //Singleton block 
+  // 	ai74
+//ai75:  
+  //Singleton block 
+  // 	ai75
+//ai76:  
+  //Singleton block 
+  // 	ai76
+//ai79:  
+  //Singleton block 
+  // 	ai79
+//ai80:  
+  //Singleton block 
+  // 	ai80
+//ai83:  
+  //Singleton block 
+  // 	ai83
+//ai85:  
+  //Singleton block 
+  // 	ai85
+//ai87:  
+  //Singleton block 
+  // 	ai87
+//ai89:  
+  //Singleton block 
+  // 	ai89
+//ai92:  
+  //Singleton block 
+  // 	ai92
+//ai94:  
+  //Singleton block 
+  // 	ai94
+//ai95:  
+  //Singleton block 
+  // 	ai95
+//ai96:  
+  //Singleton block 
+  // 	ai96
+//ai97:  
+  //Singleton block 
+  // 	ai97
+//ai98:  
+  //Singleton block 
+  // 	ai98
+//ai100:  
+  //Singleton block 
+  // 	ai100
+//as1:  
+  //Singleton block 
+  // 	as1
+//as2:  
+  //Singleton block 
+  // 	as2
+//as3:  
+  //Singleton block 
+  // 	as3
+//as4:  
+  //Representative of block (with 8 species)
+  // 	as4
+  // 	as8
+  // 	as12
+  // 	as32
+  // 	as64
+  // 	as86
+  // 	as90
+  // 	as93
+//as5:  
+  //Singleton block 
+  // 	as5
+//as6:  
+  //Singleton block 
+  // 	as6
+//as7:  
+  //Representative of block (with 3 species)
+  // 	as7
+  // 	as18
+  // 	as23
+//as9:  
+  //Singleton block 
+  // 	as9
+//as10:  
+  //Singleton block 
+  // 	as10
+//as11:  
+  //Representative of block (with 2 species)
+  // 	as11
+  // 	as65
+//as13:  
+  //Singleton block 
+  // 	as13
+//as14:  
+  //Representative of block (with 2 species)
+  // 	as14
+  // 	as91
+//as15:  
+  //Singleton block 
+  // 	as15
+//as16:  
+  //Singleton block 
+  // 	as16
+//as17:  
+  //Singleton block 
+  // 	as17
+//as19:  
+  //Singleton block 
+  // 	as19
+//as20:  
+  //Singleton block 
+  // 	as20
+//as21:  
+  //Representative of block (with 2 species)
+  // 	as21
+  // 	as63
+//as22:  
+  //Representative of block (with 6 species)
+  // 	as78
+  // 	as22
+  // 	as77
+  // 	as43
+  // 	as99
+  // 	as66
+//as24:  
+  //Representative of block (with 3 species)
+  // 	as24
+  // 	as82
+  // 	as88
+//as25:  
+  //Singleton block 
+  // 	as25
+//as26:  
+  //Singleton block 
+  // 	as26
+//as27:  
+  //Representative of block (with 2 species)
+  // 	as48
+  // 	as27
+//as28:  
+  //Singleton block 
+  // 	as28
+//as29:  
+  //Singleton block 
+  // 	as29
+//as30:  
+  //Singleton block 
+  // 	as30
+//as31:  
+  //Singleton block 
+  // 	as31
+//as33:  
+  //Singleton block 
+  // 	as33
+//as34:  
+  //Singleton block 
+  // 	as34
+//as35:  
+  //Singleton block 
+  // 	as35
+//as36:  
+  //Singleton block 
+  // 	as36
+//as37:  
+  //Singleton block 
+  // 	as37
+//as38:  
+  //Singleton block 
+  // 	as38
+//as39:  
+  //Representative of block (with 2 species)
+  // 	as39
+  // 	as81
+//as40:  
+  //Singleton block 
+  // 	as40
+//as41:  
+  //Singleton block 
+  // 	as41
+//as42:  
+  //Singleton block 
+  // 	as42
+//as44:  
+  //Singleton block 
+  // 	as44
+//as45:  
+  //Singleton block 
+  // 	as45
+//as46:  
+  //Singleton block 
+  // 	as46
+//as47:  
+  //Singleton block 
+  // 	as47
+//as49:  
+  //Singleton block 
+  // 	as49
+//as50:  
+  //Singleton block 
+  // 	as50
+//as51:  
+  //Singleton block 
+  // 	as51
+//as52:  
+  //Singleton block 
+  // 	as52
+//as53:  
+  //Singleton block 
+  // 	as53
+//as54:  
+  //Singleton block 
+  // 	as54
+//as55:  
+  //Singleton block 
+  // 	as55
+//as56:  
+  //Singleton block 
+  // 	as56
+//as57:  
+  //Singleton block 
+  // 	as57
+//as58:  
+  //Singleton block 
+  // 	as58
+//as59:  
+  //Singleton block 
+  // 	as59
+//as60:  
+  //Singleton block 
+  // 	as60
+//as61:  
+  //Representative of block (with 2 species)
+  // 	as61
+  // 	as84
+//as62:  
+  //Singleton block 
+  // 	as62
+//as67:  
+  //Singleton block 
+  // 	as67
+//as68:  
+  //Singleton block 
+  // 	as68
+//as69:  
+  //Singleton block 
+  // 	as69
+//as70:  
+  //Singleton block 
+  // 	as70
+//as71:  
+  //Singleton block 
+  // 	as71
+//as72:  
+  //Singleton block 
+  // 	as72
+//as73:  
+  //Singleton block 
+  // 	as73
+//as74:  
+  //Singleton block 
+  // 	as74
+//as75:  
+  //Singleton block 
+  // 	as75
+//as76:  
+  //Singleton block 
+  // 	as76
+//as79:  
+  //Singleton block 
+  // 	as79
+//as80:  
+  //Singleton block 
+  // 	as80
+//as83:  
+  //Singleton block 
+  // 	as83
+//as85:  
+  //Singleton block 
+  // 	as85
+//as87:  
+  //Singleton block 
+  // 	as87
+//as89:  
+  //Singleton block 
+  // 	as89
+//as92:  
+  //Singleton block 
+  // 	as92
+//as94:  
+  //Singleton block 
+  // 	as94
+//as95:  
+  //Singleton block 
+  // 	as95
+//as96:  
+  //Singleton block 
+  // 	as96
+//as97:  
+  //Singleton block 
+  // 	as97
+//as98:  
+  //Singleton block 
+  // 	as98
+//as100:  
+  //Singleton block 
+  // 	as100
+//us1:  
+  //Singleton block 
+  // 	us1
+//us2:  
+  //Singleton block 
+  // 	us2
+//us3:  
+  //Singleton block 
+  // 	us3
+//us4:  
+  //Representative of block (with 8 species)
+  // 	us4
+  // 	us8
+  // 	us12
+  // 	us32
+  // 	us64
+  // 	us86
+  // 	us90
+  // 	us93
+//us5:  
+  //Singleton block 
+  // 	us5
+//us6:  
+  //Singleton block 
+  // 	us6
+//us7:  
+  //Representative of block (with 3 species)
+  // 	us7
+  // 	us18
+  // 	us23
+//us9:  
+  //Singleton block 
+  // 	us9
+//us10:  
+  //Singleton block 
+  // 	us10
+//us11:  
+  //Representative of block (with 2 species)
+  // 	us11
+  // 	us65
+//us13:  
+  //Singleton block 
+  // 	us13
+//us14:  
+  //Representative of block (with 2 species)
+  // 	us14
+  // 	us91
+//us15:  
+  //Singleton block 
+  // 	us15
+//us16:  
+  //Singleton block 
+  // 	us16
+//us17:  
+  //Singleton block 
+  // 	us17
+//us19:  
+  //Singleton block 
+  // 	us19
+//us20:  
+  //Singleton block 
+  // 	us20
+//us21:  
+  //Representative of block (with 2 species)
+  // 	us21
+  // 	us63
+//us22:  
+  //Representative of block (with 6 species)
+  // 	us22
+  // 	us78
+  // 	us43
+  // 	us77
+  // 	us66
+  // 	us99
+//us24:  
+  //Representative of block (with 3 species)
+  // 	us24
+  // 	us82
+  // 	us88
+//us25:  
+  //Singleton block 
+  // 	us25
+//us26:  
+  //Singleton block 
+  // 	us26
+//us27:  
+  //Representative of block (with 2 species)
+  // 	us48
+  // 	us27
+//us28:  
+  //Singleton block 
+  // 	us28
+//us29:  
+  //Singleton block 
+  // 	us29
+//us30:  
+  //Singleton block 
+  // 	us30
+//us31:  
+  //Singleton block 
+  // 	us31
+//us33:  
+  //Singleton block 
+  // 	us33
+//us34:  
+  //Singleton block 
+  // 	us34
+//us35:  
+  //Singleton block 
+  // 	us35
+//us36:  
+  //Singleton block 
+  // 	us36
+//us37:  
+  //Singleton block 
+  // 	us37
+//us38:  
+  //Singleton block 
+  // 	us38
+//us39:  
+  //Representative of block (with 2 species)
+  // 	us39
+  // 	us81
+//us40:  
+  //Singleton block 
+  // 	us40
+//us41:  
+  //Singleton block 
+  // 	us41
+//us42:  
+  //Singleton block 
+  // 	us42
+//us44:  
+  //Singleton block 
+  // 	us44
+//us45:  
+  //Singleton block 
+  // 	us45
+//us46:  
+  //Singleton block 
+  // 	us46
+//us47:  
+  //Singleton block 
+  // 	us47
+//us49:  
+  //Singleton block 
+  // 	us49
+//us50:  
+  //Singleton block 
+  // 	us50
+//us51:  
+  //Singleton block 
+  // 	us51
+//us52:  
+  //Singleton block 
+  // 	us52
+//us53:  
+  //Singleton block 
+  // 	us53
+//us54:  
+  //Singleton block 
+  // 	us54
+//us55:  
+  //Singleton block 
+  // 	us55
+//us56:  
+  //Singleton block 
+  // 	us56
+//us57:  
+  //Singleton block 
+  // 	us57
+//us58:  
+  //Singleton block 
+  // 	us58
+//us59:  
+  //Singleton block 
+  // 	us59
+//us60:  
+  //Singleton block 
+  // 	us60
+//us61:  
+  //Representative of block (with 2 species)
+  // 	us61
+  // 	us84
+//us62:  
+  //Singleton block 
+  // 	us62
+//us67:  
+  //Singleton block 
+  // 	us67
+//us68:  
+  //Singleton block 
+  // 	us68
+//us69:  
+  //Singleton block 
+  // 	us69
+//us70:  
+  //Singleton block 
+  // 	us70
+//us71:  
+  //Singleton block 
+  // 	us71
+//us72:  
+  //Singleton block 
+  // 	us72
+//us73:  
+  //Singleton block 
+  // 	us73
+//us74:  
+  //Singleton block 
+  // 	us74
+//us75:  
+  //Singleton block 
+  // 	us75
+//us76:  
+  //Singleton block 
+  // 	us76
+//us79:  
+  //Singleton block 
+  // 	us79
+//us80:  
+  //Singleton block 
+  // 	us80
+//us83:  
+  //Singleton block 
+  // 	us83
+//us85:  
+  //Singleton block 
+  // 	us85
+//us87:  
+  //Singleton block 
+  // 	us87
+//us89:  
+  //Singleton block 
+  // 	us89
+//us92:  
+  //Singleton block 
+  // 	us92
+//us94:  
+  //Singleton block 
+  // 	us94
+//us95:  
+  //Singleton block 
+  // 	us95
+//us96:  
+  //Singleton block 
+  // 	us96
+//us97:  
+  //Singleton block 
+  // 	us97
+//us98:  
+  //Singleton block 
+  // 	us98
+//us100:  
+  //Singleton block 
+  // 	us100
+
+end model
+
